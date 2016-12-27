@@ -7,14 +7,11 @@
     "key": "linkbanner",
     "placeholder": "Informe o Link do banner"
   },
-
   {
     "title": "Data",
     "key": "date",
     "placeholder": "Data final da oferta"
   },
-
-
   {
     "title": "Passo",
     "key": "class",
@@ -29,23 +26,11 @@
         "key": "class[].title",
         "placeholder": "passo (1, 2, 3...)"
       },
-
-
-
       {
         "key": "class[].description",
         "type": "textarea",
         "placeholder": "Descriçao do passo"
       }
-
-
-
-
-
-
     ]
-  }, {
-    "type": "submit",
-    "title": "Visualizar"
   }
 ]

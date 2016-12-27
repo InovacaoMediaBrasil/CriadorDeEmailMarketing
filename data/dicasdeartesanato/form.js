@@ -48,14 +48,6 @@
           "placeholder": "Item"
         }]
       }
-
-
-
-
-
     ]
-  }, {
-    "type": "submit",
-    "title": "Visualizar"
   }
 ]

@@ -5,36 +5,33 @@
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
    <style type="text/css">
       html, body {
-         margin-top: 10px;
-         padding:0;
-         overflow-x: hidden;         
-      }
-      .jumbotron{
-         margin:0px;
+		 margin:0;
+         padding:0; 
       }
       .row > [class*="col-"] {
          box-sizing: border-box;
-
-      }
-      .jumbotron iframe{
+	 }
+      iframe{
          width:100%;
-         height:800px;
+         height: 99vh;
+		 position: relative;
          margin:0px;
          border:0;
-
       }
-      .container{
-         margin-left: auto;
-         margin-right:auto;
-         padding:0px;
-         width:98%;
-
-      }
-      #select{
-         width:195px;
-         margin-bottom:35px;
-      }
-
+	  .sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #06301a;
+		border-right: 1px solid #eee;
+		color: #FFF;
+	}
    </style>
    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
    crossorigin="anonymous"></script>
@@ -46,28 +43,33 @@
    <script type="text/javascript" src="static/schema-form.js"></script>
    <script type="text/javascript" src="static/bootstrap-decorator.js"></script>
    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
-   <script type="text/javascript" src="static/app.js"></script>   <title>Angular / Form / Schema</title>
+   <script type="text/javascript" src="static/app.js"></script>
+   <title>Criador de e-mail marketing - TI - Editora Inovação</title>
 </head>
 <body ng-app="FormController" ng-controller="form" ng-cloak>
-   <div  class="container" >
+   <div  class="container-fluid">
       <div  class="row" >
-         <div class="col-md-5">
-            <div class="jumbotron">
-               <div id="select">
-                  <select class="form-control selectpicker" id="selectTest" ng-model="selectedTest" ng-options="obj.name for obj in tests">
-                     <option value="" selected="selected">Selecione um template</option>
-                  </select>
-               </div>               
-               <form sf-model="modelData" sf-form="form" sf-schema="schema" ng-submit="processModel()">
-               </form>
-               <div class="alert alert-danger" role="alert" id="error" style="display:none;"></div>
-            </div>
-         </div>
-         <div class="col-md-7">
-            <div class="jumbotron">
-               <iframe id="preview"></iframe>
-            </div>
-         </div>
+			<div class="col-sm-4 col-md-3 sidebar text-center">
+				<h3>Criador de e-mail marketing</h3>
+				<img src="http://intranet.editorainovacao.com.br/Images/CriadorDeEmailMarketing.png" alt="Criador de e-mail marketing" />
+				<select class="form-control selectpicker" id="selectTest" ng-model="selectedTest" ng-options="obj.name for obj in tests">
+					<option value="" selected="selected">Selecione um modelo</option>
+				</select>
+				<div class="alert alert-danger" role="alert" id="error" style="display:none;"></div>
+				<div class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
+					<button type="button" class="btn btn-info" ng-click="processModel()">Pré-visualizar</button>
+					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
+				</div>
+				<form style="padding-top:15px;" sf-model="modelData" sf-form="form" sf-schema="schema" ng-submit="processModel()"></form>	
+				<div class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
+					<button type="button" class="btn btn-info" ng-click="processModel()">Pré-visualizar</button>
+					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
+				</div>
+			</div>
+			<div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3">
+				<iframe id="preview"></iframe>
+			</div>
+		</div>			
       </div>
    </div>
    <div id="modalResult" class="modal fade" tabindex="-1" role="dialog">

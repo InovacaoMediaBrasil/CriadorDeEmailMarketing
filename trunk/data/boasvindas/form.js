@@ -33,8 +33,4 @@
     "key":"program[].linkprograms",
     "placeholder":"Link do programa"
   }   ]
-},
-{
-  "type": "submit",
-  "title": "Visualizar"
 }]

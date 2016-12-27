@@ -52,16 +52,8 @@
             "key": "product[].list[]",
             "placeholder": "Item"
           }
-
-
         ]
       }
-
     ]
-  },
-
-  {
-    "type": "submit",
-    "title": "visualizar"
   }
 ]

@@ -103,22 +103,5 @@
             "placeholder":"Imagem entre os blocos"
          }
       ]
-   },
-   {
-    "type": "actions",
-    "items": [
-      {
-        "type": "submit",
-        "style": "btn-success",
-        "title": "Pré-visualizar"
-      },
-      {
-        "type": "button",
-        "style": "btn-success",
-        "title": "Obter código HTML",
-        "onClick": "mostrarModal()"
-      }
-    ]
-  }
-    
+   }  
 ]

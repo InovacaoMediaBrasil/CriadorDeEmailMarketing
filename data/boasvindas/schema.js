@@ -11,14 +11,14 @@
       "title": "Link Banner",
       "type": "string"
     },
-    "program": {
+    "bloco": {
       "type": "array",
       "items": {
         "title": " ",
         "type": "object",
         "properties": {
           "image": {
-            "title": "Logo do programa",
+            "title": "Imagem",
             "type": "string"
           },
           "title": {
@@ -29,7 +29,7 @@
             "title": "Descrição",
             "type": "string"
           },
-          "linkprograms": {
+          "linkimage": {
             "title": "Link",
             "type": "string"
           }

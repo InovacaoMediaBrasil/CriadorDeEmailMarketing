@@ -42,7 +42,7 @@
       "list":{  
           "type":"array",
           "items":{
-           "title":"Itens",
+           "title":"Item",
            "type":"string"
          }
        }  

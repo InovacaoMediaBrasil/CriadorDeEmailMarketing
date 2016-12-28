@@ -49,6 +49,10 @@
                   "title":"Preço a vista 1",
                   "type":"string"
                },
+               "linkcompra1":{  
+                  "title":"Link para compra 1",
+                  "type":"string"
+               },
 
                "image2":{  
                   "title":"Imagem do produro 2",
@@ -74,6 +78,10 @@
                   "title":"Preço a vista 2",
                   "type":"string"
                },
+               "linkcompra2":{  
+                  "title":"Link para compra 2",
+                  "type":"string"
+               },
                "image3":{  
                   "title":"Imagem do produto 3",
                   "type":"string"
@@ -96,6 +104,10 @@
                },
                 "precovst3":{  
                   "title":"Preço a vista 3",
+                  "type":"string"
+               },
+               "linkcompra3":{  
+                  "title":"Link para compra 3",
                   "type":"string"
                },
                "imagebanner":{  

@@ -37,7 +37,7 @@
           "type":"array",
           "items": {
             "type" : "string",
-            "title":"Item"
+            "title":"Material"
           }
         }
       } 

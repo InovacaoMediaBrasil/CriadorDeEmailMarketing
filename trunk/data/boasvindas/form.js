@@ -6,31 +6,31 @@
 {
   "title":"Link Banner",
   "key":"linkbanner",
-  "placeholder": "Informe o Link do banner"
+  "placeholder": "Informe o link do banner"
 },
 {
-  "title":"Bloco",
-  "key": "bloco",
-  "add": "Novo bloco",
+  "title":"Programa",
+  "key": "program",
+  "add": "Novo programa",
   "style": {
     "add": "btn-success"
   },
   "items": 
   [  {
-    "key":"bloco[].image",
-    "placeholder":"Caminho  da imagem"
+    "key":"program[].image",
+    "placeholder":"Caminho da imagem"
   },
   {
-    "key":"bloco[].title",
+    "key":"program[].title",
     "placeholder":"Título"
   },
   {
-    "key":"bloco[].description",
+    "key":"program[].description",
     "type": "textarea",
-    "placeholder":"Descriçao da imagem"
+    "placeholder":"Descrição da imagem"
   },
   {
-    "key":"bloco[].linkimage",
+    "key":"program[].linkprogram",
     "placeholder":"Link da imagem"
   }   ]
 }]

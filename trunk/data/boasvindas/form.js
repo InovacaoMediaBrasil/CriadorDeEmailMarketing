@@ -9,28 +9,28 @@
   "placeholder": "Informe o Link do banner"
 },
 {
-  "title":"Programa",
-  "key": "program",
-  "add": "Novo programa",
+  "title":"Bloco",
+  "key": "bloco",
+  "add": "Novo bloco",
   "style": {
     "add": "btn-success"
   },
   "items": 
   [  {
-    "key":"program[].image",
+    "key":"bloco[].image",
     "placeholder":"Caminho  da imagem"
   },
   {
-    "key":"program[].title",
-    "placeholder":"Nome do programa"
+    "key":"bloco[].title",
+    "placeholder":"Título"
   },
   {
-    "key":"program[].description",
+    "key":"bloco[].description",
     "type": "textarea",
-    "placeholder":"Descriçao sobre o programa"
+    "placeholder":"Descriçao da imagem"
   },
   {
-    "key":"program[].linkprograms",
-    "placeholder":"Link do programa"
+    "key":"bloco[].linkimage",
+    "placeholder":"Link da imagem"
   }   ]
 }]

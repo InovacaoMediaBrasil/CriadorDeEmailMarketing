@@ -48,7 +48,7 @@
          },
          {
             "key":"products[].precovst1",
-            "placeholder":"Preço do produto (não parcelado)"
+            "placeholder":"Valor (não parcelado)"
          },
          {
             "key":"products[].image2",
@@ -72,7 +72,7 @@
          },
          {
             "key":"products[].precovst2",
-            "placeholder":"Valor do produto (não parcelado)"
+            "placeholder":"Valor (não parcelado)"
          },
          {
             "key":"products[].image3",
@@ -96,7 +96,7 @@
          },
          {
             "key":"products[].precovst3",
-            "placeholder":"Valor do produto (não parcelado)"
+            "placeholder":"Valor (não parcelado)"
          },
          {
             "key":"products[].imagebanner",

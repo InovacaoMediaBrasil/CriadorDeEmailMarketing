@@ -30,8 +30,9 @@
 		overflow-y: auto;
 		background-color: #06301a;
 		border-right: 1px solid #eee;
-		color: #FFF;
+		color: #fff;
 	}
+   ol { color: #616161;}
    </style>
    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
    crossorigin="anonymous"></script>
@@ -61,7 +62,7 @@
 					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
 				</div>
 				<form style="padding-top:15px;" sf-model="modelData" sf-form="form" sf-schema="schema" ng-submit="processModel()"></form>	
-				<div class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
+				<div  class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
 					<button type="button" class="btn btn-info" ng-click="processModel()">Pré-visualizar</button>
 					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
 				</div>

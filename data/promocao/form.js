@@ -7,7 +7,7 @@
    {
       "title":"Link Banner",
       "key":"linkbanner",
-      "placeholder":"Informe o Link do banner"
+      "placeholder":"Informe o link do banner"
    },
    {
       "title":"Data",
@@ -51,6 +51,10 @@
             "placeholder":"Valor (não parcelado)"
          },
          {
+            "key":"products[].linkcompra1",
+            "placeholder":"Link para compra"
+         },
+         {
             "key":"products[].image2",
             "placeholder":"Caminho da imagem"
          },
@@ -75,6 +79,10 @@
             "placeholder":"Valor (não parcelado)"
          },
          {
+            "key":"products[].linkcompra2",
+            "placeholder":"Link para compra"
+         },
+         {
             "key":"products[].image3",
             "placeholder":"Caminho da imagem"
          },
@@ -97,6 +105,10 @@
          {
             "key":"products[].precovst3",
             "placeholder":"Valor (não parcelado)"
+         },
+         {
+            "key":"products[].linkcompra3",
+            "placeholder":"Link para compra"
          },
          {
             "key":"products[].imagebanner",

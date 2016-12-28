@@ -5,7 +5,7 @@
   }, {
     "title": "Link Banner",
     "key": "linkbanner",
-    "placeholder": "Informe o Link do banner"
+    "placeholder": "Informe o link do banner"
   },
   {
     "title": "Data",
@@ -24,7 +24,7 @@
         "placeholder": "Caminho da imagem"
       }, {
         "key": "class[].title",
-        "placeholder": "passo (1, 2, 3...)"
+        "placeholder": "passo (1, 2, 3...) e título"
       },
       {
         "key": "class[].description",

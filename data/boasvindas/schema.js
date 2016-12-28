@@ -11,7 +11,7 @@
       "title": "Link Banner",
       "type": "string"
     },
-    "bloco": {
+    "program": {
       "type": "array",
       "items": {
         "title": " ",
@@ -29,8 +29,8 @@
             "title": "Descrição",
             "type": "string"
           },
-          "linkimage": {
-            "title": "Link",
+          "linkprogram": {
+            "title": "Linkimage",
             "type": "string"
           }
         }

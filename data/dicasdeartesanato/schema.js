@@ -30,7 +30,7 @@
         },
         
         "description":{
-          "title":"Descriçao",
+          "title":"Descrição",
           "type":"string"
         },
         "link":{
@@ -42,7 +42,7 @@
       "list":{  
           "type":"array",
           "items":{
-           "title":"Item",
+           "title":"Material",
            "type":"string"
          }
        }  

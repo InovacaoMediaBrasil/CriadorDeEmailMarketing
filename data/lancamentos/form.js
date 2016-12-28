@@ -5,7 +5,7 @@
   }, {
     "title": "Link Banner",
     "key": "linkbanner",
-    "placeholder": "Informe o Link do banner"
+    "placeholder": "Informe o link do banner"
   }, {
     "title": "Data",
     "key": "date",
@@ -36,7 +36,7 @@
       {
         "key": "product[].description",
         "type": "textarea",
-        "placeholder": "Descriçao do produto"
+        "placeholder": "Descrição do produto"
       },
 
       {
@@ -47,10 +47,14 @@
 
       {
         "key": "product[].list",
-        "title": "Lista de itens",
+        "title": "Lista de materiais",
+        "add": "Novo material",
+        "style": {
+        "add": "btn-success"
+    },
         "items": [{
             "key": "product[].list[]",
-            "placeholder": "Item"
+            "placeholder": "Material"
           }
         ]
       }

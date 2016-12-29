@@ -99,7 +99,7 @@
                   "type":"string"
                },
                "valorparcela3":{  
-                  "title":"Valor da parcelas 3",
+                  "title":"Valor da parcela 3",
                   "type":"string"
                },
                 "precovst3":{  

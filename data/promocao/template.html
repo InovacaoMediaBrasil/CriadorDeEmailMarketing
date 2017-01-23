@@ -10,6 +10,27 @@
       </o:OfficeDocumentSettings>
     </xml>
     <![endif]-->
+
+     <style type="text/css">
+        .format{
+        
+            background:#f58438;
+            color:#ffffff;
+            text-align:center;
+            padding:13px;
+            display:none;
+      
+
+        }
+
+        .mostrar {
+          display:block!important;
+        }
+
+        
+    </style>
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,6 +56,10 @@
                               <td class="wunderbizCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                 <table border="0" cellpadding="0" cellspacing="0" class="wunderbizCaptionRightContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                   <tbody>
+
+
+                                 
+
                                     <tr>
                                       <td valign="top" class="wunderbizCaptionRightContentInner" style="padding: 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                         <table align="left" border="0" cellpadding="0" cellspacing="0" class="wunderbizCaptionRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -172,19 +197,24 @@
                           </tbody>
                         </table>
                         {{#each products}}
+
                         <table border="0" cellpadding="0" cellspacing="0" width="100%" class="wunderbizTextBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                           <tbody class="wunderbizTextBlockOuter">
                             <tr>
-                              <td valign="top" class="wunderbizTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                              <td  valign="top" class="wunderbizTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="wunderbizTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                                   <tbody>
                                     <tr>
                                       <td valign="top" class="wunderbizTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 24px;text-align: left;">
-                                        <div style="background:#f58438; margin:0 auto; padding:13px; text-align: center; color:#FFFFFF"><strong>{{title}}:&nbsp;</strong></div>
+                                       
+                                        <div class="format">{{title}}</div>
                                       </td>
                                     </tr>
                                   </tbody>
                                 </table>
+
+
+
                               </td>
                             </tr>
                           </tbody>
@@ -685,5 +715,29 @@
         </tr>
       </table>
     </center>
+
+
+  <script type="text/javascript">
+
+
+  var div = document.querySelectorAll(".format");
+
+
+
+            
+
+       for (var i = 0;  i < div.length; i++) {
+
+          if (div[i].textContent != '') {
+              document.querySelectorAll(".format")[i].classList.add('mostrar');
+          }
+       }
+
+
+
+  </script>
+
+
+
   </body>
 </html>

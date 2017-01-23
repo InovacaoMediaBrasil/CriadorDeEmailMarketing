@@ -26,6 +26,7 @@
             "key":"products[].title",
             "placeholder":"Título do bloco"
          },
+         
          {
             "key":"products[].image1",
             "placeholder":"Caminho da imagem"

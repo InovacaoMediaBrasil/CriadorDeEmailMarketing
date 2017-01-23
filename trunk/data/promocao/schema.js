@@ -25,6 +25,7 @@
                   "title":"Título do bloco",
                   "type":"string"
                },
+               
                "image1":{  
                   "title":"Imagem do produto 1",
                   "type":"string"

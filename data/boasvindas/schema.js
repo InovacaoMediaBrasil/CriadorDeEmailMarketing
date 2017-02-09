@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "title": "Lançamentos",
+  "title": "Dicas de artesanato",
   "required": ["banner" ,"linkbanner", "items"],
   "properties": {
     "banner": {
@@ -38,3 +38,4 @@
     }  
   }
 }
+

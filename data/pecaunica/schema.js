@@ -6,6 +6,7 @@
    "properties":{  
     "banner":{"title":"Banner", "type":"string"},
     "linkbanner":{"title":"Link Banner", "type":"string"},
+	"namebanner":{"title":"Nome do banner", "type":"string"},
     "date":{"title":"Data", "type":"string"},
     "class":{  
       "type":"array",

@@ -10,6 +10,11 @@
       "placeholder":"Informe o link do banner"
    },
    {
+      "title":"Nome do Banner",
+      "key":"namebanner",
+      "placeholder":"Informe o nome do banner"
+   },
+   {
       "title":"Data",
       "key":"date",
       "placeholder":"Data final da oferta"
@@ -52,6 +57,14 @@
             "placeholder":"Valor (não parcelado)"
          },
          {
+            "key":"products[].precoanterior1",
+            "placeholder":"Preço anterior á promoção"
+         },
+		 {
+            "key":"products[].desconto1",
+            "placeholder":"Desconto "
+         },
+         {
             "key":"products[].linkcompra1",
             "placeholder":"Link para compra"
          },
@@ -78,6 +91,14 @@
          {
             "key":"products[].precovst2",
             "placeholder":"Valor (não parcelado)"
+         },
+         {
+            "key":"products[].precoanterior2",
+            "placeholder":"Preço anterior á promoção"
+         },
+		 {
+            "key":"products[].desconto2",
+            "placeholder":"Desconto sobre o valor anterior"
          },
          {
             "key":"products[].linkcompra2",
@@ -107,6 +128,15 @@
             "key":"products[].precovst3",
             "placeholder":"Valor (não parcelado)"
          },
+         {
+            "key":"products[].precoanterior3",
+            "placeholder":"Preço anterior á promoção"
+         },
+		 {
+            "key":"products[].desconto3",
+            "placeholder":"Desconto sobre o valor anterior"
+         },
+
          {
             "key":"products[].linkcompra3",
             "placeholder":"Link para compra"

@@ -9,6 +9,11 @@
   "placeholder": "Informe o link do banner"
 },
 {
+  "title":"Nome do banner",
+  "key":"namebanner",
+  "placeholder": "Informe o nome do banner"
+},
+{
   "title":"Programa",
   "key": "program",
   "add": "Novo programa",

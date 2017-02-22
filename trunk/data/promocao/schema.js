@@ -11,6 +11,10 @@
          "title":"Link Banner",
          "type":"string"
       },
+	  "namebanner":{  
+         "title":"Nome do banner",
+         "type":"string"
+      },
       "date":{  
          "title":"Data",
          "type":"string"
@@ -50,6 +54,17 @@
                   "title":"Preço a vista 1",
                   "type":"string"
                },
+               "precoanterior1":{  
+                  "title":"Valor anterior",
+                  "type":"string"
+
+               },
+			   "desconto1":{  
+                  "title":"Desconto",
+                  "type":"string"
+
+               },
+
                "linkcompra1":{  
                   "title":"Link para compra 1",
                   "type":"string"
@@ -79,6 +94,18 @@
                   "title":"Preço a vista 2",
                   "type":"string"
                },
+
+                "precoanterior2":{  
+                  "title":"Valor anterior",
+                  "type":"string"
+               },
+			    "desconto2":{  
+                  "title":"Desconto",
+                  "type":"string"
+
+               },
+
+
                "linkcompra2":{  
                   "title":"Link para compra 2",
                   "type":"string"
@@ -107,6 +134,18 @@
                   "title":"Preço a vista 3",
                   "type":"string"
                },
+
+               "precoanterior3":{  
+                  "title":"Valor anterior",
+                  "type":"string"
+               
+               },
+			    "desconto3":{  
+                  "title":"Desconto",
+                  "type":"string"
+
+               },
+
                "linkcompra3":{  
                   "title":"Link para compra 3",
                   "type":"string"

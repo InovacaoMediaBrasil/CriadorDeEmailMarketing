@@ -11,6 +11,10 @@
       "title": "Link Banner",
       "type": "string"
     },
+	"namebanner": {
+      "title": "Nome do banner",
+      "type": "string"
+    },
     "program": {
       "type": "array",
       "items": {
@@ -30,7 +34,7 @@
             "type": "string"
           },
           "linkprogram": {
-            "title": "Linkimage",
+            "title": "Link Image",
             "type": "string"
           }
         }

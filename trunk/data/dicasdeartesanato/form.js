@@ -7,7 +7,12 @@
     "title": "Link Banner",
     "key": "linkbanner",
     "placeholder": "Informe o link do banner"
-  }, 
+  },
+{
+    "title": "Nome do Banner",
+    "key": "namebanner",
+    "placeholder": "Informe o nome do banner"
+  },  
   {
     "date": "Data",
     "key": "date",

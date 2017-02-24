@@ -98,7 +98,7 @@
          },
 		 {
             "key":"products[].desconto2",
-            "placeholder":"Desconto sobre o valor anterior"
+            "placeholder":"Desconto"
          },
          {
             "key":"products[].linkcompra2",
@@ -134,7 +134,7 @@
          },
 		 {
             "key":"products[].desconto3",
-            "placeholder":"Desconto sobre o valor anterior"
+            "placeholder":"Desconto"
          },
 
          {

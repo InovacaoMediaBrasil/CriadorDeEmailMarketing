@@ -243,21 +243,32 @@
                                                   </td>
                                                 </tr>
                                                 <tr>
+												
                                                   <td class="wunderbizTextContent" valign="top" style="padding: 0 9px 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 24px;text-align: left;" width="164">
-                                                    <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 15px;"><font face="Arial"><span style="font-size:14px">{{description1}} </span></font></div>
+                                                    <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 19px;"><font face="Arial"><span style="font-size:14px">{{description1}} </span></font></div>
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 1.1;">&nbsp;</div>
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;line-height: 13px;text-align: center;">{{#if valorparcela1}}
-                                                      <div style="line-height: 15px;"><font face="Arial"><font face=""><span style="font-size:14px"><span style="font-size:11px">Por:</span>&nbsp;</span><strong> R$ {{value1}}</strong><span style="font-size:14px">&nbsp;à vista ou</span></font></font></div>
-                                                      <div style="line-height: 15px;"><font face="Arial"><font color="#ff9737" face=""><strong>{{parcelas1}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><font color="#ff9737" face=""><strong>R$  {{valorparcela1}}</strong></font><font face="" style="font-size: 14px;">&nbsp;s/ juros</font></font></font>
-                                                         {{else}}
+													
+													<div style="line-height: 19px !important;">	
+													<div style="margin-bottom:7px;">	
+													<font color="#616161"><strong> {{desconto1}}</strong></font> </br></div>
+													<span style="font-size:11px">  De: </span><span style="font-size:15px"><strong>  R$ <strike>{{precoanterior1}}</strike></strong></span><br>
+                                                     
+													 <span style="font-size:15px;"><div style="line-height: 19px;"><font face="Arial"><span style="font-size:11px">Por:</span>&nbsp;</span><strong>R$ <font color="#FF4444">{{value1}}</font></strong><span style="font-size:13px">&nbsp;à vista ou</span></font></div>
+                                                      <div style="line-height: 19px;"><font face="Arial"><font color="#ff6d00"><strong>{{parcelas1}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><strong>R$<font color="#FF4444">  {{valorparcela1}}</strong></font><font face="" style="font-size: 13px;">&nbsp;s/ juros</font></font></font>
+														</div></span>
+													  {{else}}
 														 
 														 
 													 <div style="line-height: 19px;">
-													{{desconto1}} </br>
-													 De: <strong>  R$ <strike><font color="red">{{precoanterior1}}</strong></font></strike><br>Por
+													 <div style="margin-bottom:7px;">
+													  
+													<font color="#616161"><strong>{{desconto1}}</strong></font> </br></div>
+													<span style="font-size:11px"> De:</span><span style="font-size:15px"> <strong>  R$ <strike>{{precoanterior1}}</strike></strong></span><br> <span style="font-size:11px">Por</span>
 													 
-<font face="Arial"><font face=""><strong><font color="#fbb15d" face="">R$ {{precovst1}}<span style="font-size:14px">&nbsp;</br></span></font></strong></font></font><span style="font-family:arial; font-size:14px">à vista</span></div></div>  {{/if}}
-                                                    </div>
+													<font face="Arial"><span style="font-size:15px"><strong>R$<font color="#FF4444"> {{precovst1}}</span><span style="font-size:14px;"> &nbsp;</br></span></font></strong></font><span style="font-family:arial; font-size:14px">à vista</span></div></div>  {{/if}}
+                                                    
+													</div>
                                                   </td>
                                                 </tr>
                                               </tbody>
@@ -335,13 +346,22 @@
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 15px;"><font face="Arial"><span style="font-size:14px">{{description2}}</span></font></div>
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 1.1;">&nbsp;</div>
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;line-height: 13px;text-align: center;">   {{#if parcelas2}}
-                                                      <div style="line-height: 15px;"><font face="Arial"><font face=""><span style="font-size:14px"><span style="font-size:11px">Por:</span>&nbsp;</span><strong>R$ {{value2}}</strong><span style="font-size:14px">&nbsp;à vista ou</span></font></font></div>
-                                                      <div style="line-height: 15px;"><font face="Arial"><font color="#ff9737" face=""><strong>{{parcelas2}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><font color="#ff9737" face=""><strong>R$ {{valorparcela2}}</strong></font><font face="" style="font-size: 14px;">&nbsp;s/ juros</font></font></font>
+                                                      
+													 <div style="line-height: 19px !important;">	
+													<div style="margin-bottom:7px;">	
+													<font color="#616161"><strong> {{desconto2}}</strong></font> </br></div>
+													<span style="font-size:11px">  De: </span><span style="font-size:15px"><strong>  R$ <strike>{{precoanterior2}}</strong></span></strike><br>
+                                                     
+													 <span style="font-size:15px;"><div style="line-height: 19px;"><font face="Arial"><span style="font-size:11px">Por:</span>&nbsp;</span><strong>R$ <font color="#FF4444">{{value2}}</font></strong><span style="font-size:13px">&nbsp;à vista ou</span></font></div>
+                                                      <div style="line-height: 19px;"><font face="Arial"><font color="#ff6d00"><strong>{{parcelas2}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><strong>R$<font color="#FF4444">  {{valorparcela2}}</strong></font><font face="" style="font-size: 13px;">&nbsp;s/ juros</font></font></font>
+														</div></span>
                                                        {{else}}
                                                        <div style="line-height: 19px;">
-													   {{desconto2}} </br>
-													   De: <strong>  R$ <strike><font color="red">{{precoanterior2}}</strong></font></strike><br>Por
-<font face="Arial"><font face=""><strong><font color="#fbb15d" face="">R$ {{precovst2}}<span style="font-size:14px">&nbsp;</br></span></font></strong></font></font><span style="font-family:arial; font-size:14px">à vista</span></div></div> {{/if}}
+													 <div style="margin-bottom:7px;">
+													<font color="#616161"><strong>{{desconto2}}</strong></font> </br></div>
+													<span style="font-size:11px"> De:</span> <span style="font-size:15px"><strong>  R$ <strike>{{precoanterior2}}</strike></strong></span><br> <span style="font-size:11px">Por</span>
+													 
+													<font face="Arial"><span style="font-size:15px"><strong>R$<font color="#FF4444"> {{precovst2}}</span><span style="font-size:14px;"> &nbsp;</br></span></font></strong></font></font><span style="font-family:arial; font-size:14px">à vista</span></div></div>  {{/if}}
                                                     </div>
                                                   </td>
                                                 </tr>
@@ -421,14 +441,21 @@
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;text-align: center;line-height: 1.1;">&nbsp;</div>
                                                     <div style="font-family: arial, sans-serif;color: #000000;font-size: 16px;line-height: 13px;text-align: center;">
                                                      {{#if parcelas3}}
-                                                      <div style="line-height: 15px;"><font face="Arial"><font face=""><span style="font-size:14px"><span style="font-size:11px">Por:</span>&nbsp;</span><strong>R$ {{value3}}</strong><span style="font-size:14px">&nbsp;à vista ou</span></font></font></div>
-                                                      <div style="line-height: 15px;"><font face="Arial"><font color="#ff9737" face=""><strong>{{parcelas3}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><font color="#ff9737" face=""><strong>R$ {{valorparcela3}}</strong></font><font face="" style="font-size: 14px;">&nbsp;s/ juros</font></font></font>
+                                                      <div style="line-height: 19px !important;">	
+													<div style="margin-bottom:7px;">	
+													<font color="#616161"><strong> {{desconto3}}</strong></font> </br></div>
+													<span style="font-size:11px">  De: </span><span style="font-size:15px"><strong>  R$ <strike>{{precoanterior3}}</strong></span></strike><br>
+                                                     
+													 <span style="font-size:15px;"><div style="line-height: 19px;"><font face="Arial"><font face=""><span style="font-size:11px">Por:</span>&nbsp;</span><strong>R$ <font color="#FF4444">{{value3}}</font></strong><span style="font-size:13px">&nbsp;à vista ou</span></font></font></div>
+                                                      <div style="line-height: 19px;"><font face="Arial"><font color="#ff6d00"><strong>{{parcelas3}}x</strong></font><span style="font-size:14px">&nbsp;de&nbsp;</span><font face=""><strong>R$<font color="#FF4444">  {{valorparcela3}}</strong></font><font face="" style="font-size: 13px;">&nbsp;s/ juros</font></font></font>
+														</div></span>
                                                          {{else}}
                                                          <div style="line-height: 19px;">
-														 {{desconto3}} </br>
-														 De: <strong>  R$ <strike><font color="red">{{precoanterior3}}</strong></font></strike><br>Por
-                                                      
-<font face="Arial"><font face=""><strong><font color="#fbb15d" face="">R$ {{precovst3}}<span style="font-size:14px">&nbsp;</br></span></font></strong></font></font><span style="font-family:arial; font-size:14px">à vista</span></div></div>{{/if}}
+													 <div style="margin-bottom:7px;">
+													<font color="#616161"><strong>{{desconto3}}</strong></font> </br></div>
+													<span style="font-size:11px"> De:</span> <span style="font-size:15px"><strong>  R$ <strike>{{precoanterior3}}</strike></strong></span><br> <span style="font-size:11px">Por</span>
+													 
+													<font face="Arial"><span style="font-size:15px"><strong>R$ <font color="#FF4444">{{precovst3}}</span><span style="font-size:14px;"> &nbsp;</br></span></font></strong></font></font><span style="font-family:arial; font-size:14px">à vista</span></div></div>  {{/if}}
                                                     </div>
                                                   </td>
                                                 </tr>

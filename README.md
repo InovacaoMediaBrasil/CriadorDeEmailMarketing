@@ -14,11 +14,8 @@ A aplicação é totalmente estática e funciona com base em templates criados p
 
 ### Estrutura do template
 
-  |--data
-     |-- TemplateName
-         |-- form.js
-         |-- schema.js
-         |-- template.html
-         
-
-
+|-- data 
+   |-- TemplateName   
+      |-- form.js          
+      |-- schema.js          
+      |-- template.html

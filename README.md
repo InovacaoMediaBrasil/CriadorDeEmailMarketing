@@ -1,9 +1,6 @@
 # Criador  de Email Marketing
 
-
 Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
-
-[![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing)
 
 ![Criador de e-mail marketing](logo.png)
 

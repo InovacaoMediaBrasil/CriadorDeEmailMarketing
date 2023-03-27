@@ -2,6 +2,10 @@
 
 Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
 
+[![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/test_coverage)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/test_coverage)
+
 ![Criador de e-mail marketing](logo.png)
 
 Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2014 - 2019. 

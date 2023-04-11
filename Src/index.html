@@ -1,0 +1,158 @@
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+
+
+   
+   <style type="text/css">
+      html, body {
+		   margin:0;
+         padding:0; 
+      }
+      .row > [class*="col-"] {
+         box-sizing: border-box; 
+	 }
+      iframe{
+         width:100%;
+         height: 99vh;
+		   position: relative;
+         margin:0px;
+         border:0;
+      }
+	  .sidebar {        /* "Classe  bootstrap - "menu" lateral esquerda da aplicação */
+		position: fixed;  
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: #06301a;
+		border-right: 1px solid #eee;
+		color: #fff;
+	}
+   ol { color: #616161;}   /* "Formata a cor do texto (Títulos do blocos) - */
+   form > div > ol > li:nth-child(even) {  /* "Formata a cor de fundo dos blocos intercalando-os - */
+      background: #FFC;   
+   }
+   /*form > div > ol > li > div > ol > li:nth-child(even) {
+      background: #F33;      
+   }*/
+   </style>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+   crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.js"></script>
+   <script type="text/javascript" src="static/tv4.js"></script>
+   <script type="text/javascript" src="static/ObjectPath.js"></script>
+   <script type="text/javascript" src="static/schema-form.js"></script>
+   <script type="text/javascript" src="static/bootstrap-decorator.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+   <script type="text/javascript" src="static/app.js"></script>
+
+   <title>Criador de e-mail marketing - TI - Editora Inovação</title>
+
+</head>
+
+
+
+
+
+<!--ng-app é utilizado para auto-inicialização de um pedido AngularJS (FromControler - arquivo app.js)-->
+
+<!--ng-controller atribui uma classe de controlador (Função -arquivo app.js)-->
+
+<!--A ng-cloak impede o documento, de mostrar código AngularJS inacabadas enquanto AngularJS está sendo carregado.-->
+
+<body ng-app="FormController" ng-controller="form" ng-cloak>
+
+
+
+   <div  class="container-fluid">
+      <div  class="row">
+			<div class="col-sm-4 col-md-3 sidebar text-center"> <!--"Classe  bootstrap - "menu" lateral esquerda da aplicação-->
+				<h3>Criador de e-mail marketing</h3>
+				<img src="http://intranet.editorainovacao.com.br/Images/CriadorDeEmailMarketing.png" alt="Criador de e-mail marketing" />
+
+            <!--ng-model vincula o valor dos controles HTML (input, select, textarea) aos dados do aplicativo (função - arquivo app.js)-->
+
+           <!--ng-options gera dinamicamente uma lista de <option> elementos para o <select> (Lista com o conteúdo - arquivo app.js)-->
+
+           <!-- select - manipula uma lista do arquivo app.js, que será exibida na tela-->
+				<select class="form-control selectpicker" id="selectTemplate" ng-model="selectTemplate" ng-options="obj.name for obj in availableTemplates">
+					<option value="" selected="selected">Selecione um modelo</option> <!--Opção marcada no select-->
+				</select>
+				<div class="alert alert-danger" role="alert" id="error" style="display:none;"></div>
+
+
+
+            <!--ng-if remove ou recria uma parte da árvore DOM com base em uma {expressão} (Adiciona os botões "previsualizar" e "gerar código html" se houver conteudo na pagina)-->
+				<div class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
+
+
+           <!--ng-click  permite especificar um comportamento personalizado quando um elemento é clicado.-->
+					<button type="button" class="btn btn-info" ng-click="processModel()">Pré-visualizar</button>
+					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
+				</div>
+				<form style="padding-top:15px;" sf-model="modelData" sf-form="form" sf-schema="schema" ng-submit="processModel()"></form>	
+				<div  class="btn-group btn-group-md" style="padding-top:25px;" ng-if="form != null">
+					<button type="button" class="btn btn-info" ng-click="processModel()">Pré-visualizar</button>
+					<button type="button" class="btn btn-success" ng-click="renderCode()">Gerar código HTML</button>
+				</div>
+			</div>
+
+
+         <!---Formata o local reservado para o iframe-->
+			<div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3">
+
+
+
+
+
+
+				<iframe id="preview"></iframe>
+			</div>
+		</div>			
+      </div>
+   </div>
+
+    <!--Painel que exibe o código HTML"-->
+   <div id="modalResult" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+
+               <!--Botão fechar do painel-->
+               <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               <h4 class="modal-title text-center">Código HTML</h4>
+            </div>
+
+               <!---Formatação do painel-->
+            <div class="modal-body">
+               <textarea rows="20" style="width:100%;" id="result"></textarea>
+            </div>
+
+
+            <!---Rodapé do painel-->
+            <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+
+
+
+         </div>
+      </div>
+   </div>
+</body>
+</html>

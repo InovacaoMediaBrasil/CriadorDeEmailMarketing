@@ -33,6 +33,6 @@ A aplicação é totalmente estática e funciona com base em templates criados p
       |-- template.html
       
       
-## Copyright
+---
 
 Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2014 - 2023. 

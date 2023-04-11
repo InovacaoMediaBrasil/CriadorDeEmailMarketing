@@ -5,6 +5,7 @@ Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
 [![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/test_coverage)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/test_coverage)
+[![CodeFactor](https://www.codefactor.io/repository/github/inovacaomediabrasil/criadordeemailmarketing/badge)](https://www.codefactor.io/repository/github/inovacaomediabrasil/criadordeemailmarketing)
 
 ![Criador de e-mail marketing](logo.png)
 

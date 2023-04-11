@@ -1,4 +1,4 @@
-# Criador  de Email Marketing
+# Criador de Email Marketing
 
 Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
 
@@ -6,6 +6,8 @@ Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/test_coverage)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/test_coverage)
 [![CodeFactor](https://www.codefactor.io/repository/github/inovacaomediabrasil/criadordeemailmarketing/badge)](https://www.codefactor.io/repository/github/inovacaomediabrasil/criadordeemailmarketing)
+[![GitHub license](https://img.shields.io/github/license/InovacaoMediaBrasil/CriadorDeEmailMarketing)](https://github.com/InovacaoMediaBrasil/CriadorDeEmailMarketing)
+[![GitHub last commit](https://img.shields.io/github/last-commit/InovacaoMediaBrasil/CriadorDeEmailMarketing/main)](https://github.com/InovacaoMediaBrasil/CriadorDeEmailMarketing)
 
 ![Criador de e-mail marketing](logo.png)
 

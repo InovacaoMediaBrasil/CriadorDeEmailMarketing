@@ -1,11 +1,11 @@
 name: Label based on PR size
+
 on:
   pull_request
   
 jobs:
   size-label:
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
 

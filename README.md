@@ -37,8 +37,8 @@ The application is completely static and works based on previously created templ
             
 ---
 
-Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) [*guilherme(at)guilhermebranco(dot)com(dot)br*] for [Editora Inovação](https://www.editorainovacao.com.br).
+Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) for [Editora Inovação](https://www.editorainovacao.com.br).
 
-2013 ~ 2018 © [Guilherme Branco Stracini](https://guilherme.stracini.com). All rights reserved.
+2013 ~ 2018 © All rights reserved.
 
 ---

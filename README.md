@@ -26,14 +26,6 @@ Tool created to automate the creation of email marketing campaigns.
 ## Operation
 
 The application is completely static and works based on previously created templates available in the **data** folder
-
-### Template structure
-
-|-- data 
-   |-- TemplateName   
-      |-- form.js          
-      |-- schema.js          
-      |-- template.html
             
 ---
 

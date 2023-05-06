@@ -1,6 +1,6 @@
 # Criador de Email Marketing
 
-Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
+The [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br) tool, used to generate email marketings campaigns.
 
 [![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/maintainability)
@@ -13,29 +13,32 @@ Aplicação [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br)
 
 ---
 
-## Sobre
+## About
 
-Ferramenta criada para automatizar a criação de campanhas de e-mail marketing.
+Tool created to automate the creation of email marketing campaigns.
 
-## Tecnologias
+## Technologies
 
 - Angular
 - SchemaForm
 - Handlebars
 
-## Funcionamento
+## Operation
 
-A aplicação é totalmente estática e funciona com base em templates criados previamente e disponíveis na pasta **data**
+The application is completely static and works based on previously created templates available in the **data** folder
 
-### Estrutura do template
+### Template structure
 
 |-- data 
    |-- TemplateName   
       |-- form.js          
       |-- schema.js          
       |-- template.html
-      
-      
+            
 ---
 
-Desenvolvido por [Guilherme Branco Stracini](https://www.guilhermebranco.com.br) [*guilherme(at)guilhermebranco(dot)com(dot)br*] para [Editora Inovação](https://www.editorainovacao.com.br) - © 2014 - 2023. 
+Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) [*guilherme(at)guilhermebranco(dot)com(dot)br*] for [Editora Inovação](https://www.editorainovacao.com.br).
+
+2013 ~ 2018 © [Guilherme Branco Stracini](https://guilherme.stracini.com). All rights reserved.
+
+---

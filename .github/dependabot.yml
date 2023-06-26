@@ -6,36 +6,22 @@ updates:
   schedule:
     interval: weekly
   open-pull-requests-limit: 50
-  assignees: 
+  assignees:
     - "guibranco"
-  reviewers: 
+  reviewers:
     - "guibranco"
   labels:
     - "docker"
     - "dependencies"
 
-- package-ecosystem: "nuget"
-  directory: "/"
-  schedule:
-    interval: weekly
-  open-pull-requests-limit: 50
-  assignees: 
-    - "guibranco"
-  reviewers: 
-    - "guibranco"
-  labels:
-    - "nuget"
-    - ".NET"
-    - "dependencies"
-    
 - package-ecosystem: "npm"
   directory: "/"
   schedule:
     interval: weekly
   open-pull-requests-limit: 50
-  assignees: 
+  assignees:
     - "guibranco"
-  reviewers: 
+  reviewers:
     - "guibranco"
   labels:
     - "npm"
@@ -47,9 +33,9 @@ updates:
   schedule:
     interval: weekly
   open-pull-requests-limit: 50
-  assignees: 
+  assignees:
     - "guibranco"
-  reviewers: 
+  reviewers:
     - "guibranco"
   labels:
     - "github-actions"

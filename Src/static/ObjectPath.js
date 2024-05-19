@@ -1,6 +1,6 @@
 'use strict';
 
-;!function(undefined) {
+!function(undefined) {
 
 	var ObjectPath = {
 		parse: function(str){

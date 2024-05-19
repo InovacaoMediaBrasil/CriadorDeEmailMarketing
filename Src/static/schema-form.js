@@ -2741,7 +2741,7 @@ angular.module('schemaForm').directive('schemaValidate', ['sfValidator', '$parse
               sfSelect(path, scope.model, ngModel.$modelValue);
             });
           });
-        };
+        }
 
 
         // Validate against the schema.

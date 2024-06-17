@@ -1,6 +1,6 @@
 # Criador de Email Marketing
 
-The [Criador de e-mail marketing](https:/www.canaldoartesanato.com.br) tool, used to generate email marketings campaigns.
+The [Criador de e-mail marketing](https://ti.editorainovacao.com.br/Tools/CriadorDeEmailMarketing) tool, used to generate email marketings campaigns.
 
 [![wakatime](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing.svg)](https://wakatime.com/badge/github/InovacaoMediaBrasil/CriadorDeEmailMarketing)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e25ca332568ac1e3a94c/maintainability)](https://codeclimate.com/github/InovacaoMediaBrasil/CriadorDeEmailMarketing/maintainability)

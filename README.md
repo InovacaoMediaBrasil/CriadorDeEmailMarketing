@@ -29,7 +29,7 @@ The application is completely static and works based on previously created templ
             
 ---
 
-Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) for [Editora Inovação](https://www.editorainovacao.com.br).
+Developed by [Guilherme Branco Stracini](https://guilherme.stracini.com) for [Editora Inovação](https://www.editorainovacao.com.br)
 
 © 2013 ~ 2018 All rights reserved.
 

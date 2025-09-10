@@ -1,42 +1,44 @@
-[{
-  "title":"Banner",
-  "key":"banner",
-  "placeholder": "Informe o endereço do banner"
-},
-{
-  "title":"Link Banner",
-  "key":"linkbanner",
-  "placeholder": "Informe o link do banner"
-},
-{
-  "title":"Nome do banner",
-  "key":"namebanner",
-  "placeholder": "Informe o nome do banner"
-},
-{
-  "title":"Programa",
-  "key": "program",
-  "add": "Novo programa",
-  "style": {
-    "add": "btn-success"
-  },
-  "items": 
-  [  {
-    "key":"program[].image",
-    "placeholder":"Caminho da imagem"
+[
+  {
+    title: "Banner",
+    key: "banner",
+    placeholder: "Informe o endereço do banner",
   },
   {
-    "key":"program[].title",
-    "placeholder":"Título"
+    title: "Link Banner",
+    key: "linkbanner",
+    placeholder: "Informe o link do banner",
   },
   {
-    "key":"program[].description",
-    "type": "textarea",
-    "placeholder":"Descrição da imagem"
+    title: "Nome do banner",
+    key: "namebanner",
+    placeholder: "Informe o nome do banner",
   },
   {
-    "key":"program[].linkprogram",
-    "placeholder":"Link da imagem"
-  }   ]
-}]
-
+    title: "Programa",
+    key: "program",
+    add: "Novo programa",
+    style: {
+      add: "btn-success",
+    },
+    items: [
+      {
+        key: "program[].image",
+        placeholder: "Caminho da imagem",
+      },
+      {
+        key: "program[].title",
+        placeholder: "Título",
+      },
+      {
+        key: "program[].description",
+        type: "textarea",
+        placeholder: "Descrição da imagem",
+      },
+      {
+        key: "program[].linkprogram",
+        placeholder: "Link da imagem",
+      },
+    ],
+  },
+];
